@@ -40,11 +40,7 @@ A page to search infos about movies
 <a href="https://www.adobe.com/fr/products/illustrator.html" target="_blank" rel="noreferrer"> 
 	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/langfr-1280px-Adobe_Illustrator_CC_icon.svg.png" alt="illustrator" width="40" height="40"/> </a>
 
-<a href="https://www.adobe.com/fr/products/premiere/landpb.html?gclid=CjwKCAjw9pGjBhB-EiwAa5jl3HS7DuNu-WsH2C6HeL2oXsHekZbrm1Qa_PZB6CV0UwxuKKW2oerHuBoCSwoQAvD_BwE&mv=search&mv=search&sdid=LQLZT7BT&ef_id=CjwKCAjw9pGjBhB-EiwAa5jl3HS7DuNu-WsH2C6HeL2oXsHekZbrm1Qa_PZB6CV0UwxuKKW2oerHuBoCSwoQAvD_BwE:G:s&s_kwcid=AL!3085!3!341217015784!e!!g!!adobe%20premiere!1435912734!56537472379&gad=1" target="_blank" rel="noreferrer"> 
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/langfr-1280px-Adobe_Premiere_Pro_CC_icon.svg.png" alt="premiere pro" width="40" height="40"/> </a>
 
-<a href="https://www.adobe.com/fr/products/aftereffects/landpb.html?gclid=CjwKCAjw9pGjBhB-EiwAa5jl3F4Zj4t1kGWGp8Efg3gxKfgsaa1d4v6Ndt6-upqBU4WOsRZOSSfs5hoChHwQAvD_BwE&mv=search&mv=search&sdid=MYYBRYZH&ef_id=CjwKCAjw9pGjBhB-EiwAa5jl3F4Zj4t1kGWGp8Efg3gxKfgsaa1d4v6Ndt6-upqBU4WOsRZOSSfs5hoChHwQAvD_BwE:G:s&s_kwcid=AL!3085!3!600183576455!e!!g!!after%20effects!1435912503!56537405219&gad=1" target="_blank" rel="noreferrer"> 
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/langfr-1280px-Adobe_After_Effects_CC_icon.svg.png" alt="after effect" width="40" height="40"/> </a>
 
 <a href="https://www.apple.com/fr/final-cut-pro/" target="_blank" rel="noreferrer"> 
 	<img src="https://upload.wikimedia.org/wikipedia/fr/a/a5/Final_Cut_Pro_Logo_2015.png" alt="final cut" width="40" height="40"/> </a>
