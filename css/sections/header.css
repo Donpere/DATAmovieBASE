@@ -1,8 +1,3 @@
-.logo_chair {
-	width: 20%;
-	object-fit: contain;
-} 
-
 img{
 	filter: drop-shadow(5px 5px 1px rgb(0 0 0 / 0.4));
 }
@@ -14,12 +9,38 @@ nav {
 	align-items: center;
 }
 
+.logo_chair {
+	width: 20%;
+}
+
 .logo_chair .st0 {
 	fill: var(--C3);
 } 
 
-.azul, .src_btn{
+nav .search {
+	display: flex;
+	gap: 10px;
+}
+
+nav .search input,
+nav .search button {
+	text-align: center;
+	padding: 5px 15px;
+	font-size: 0.9em;
+	outline: none;
+	border: 2px solid var(--C3);
+	border-radius: 0.4em;
+}
+
+nav .search input {
 	background-color: var(--C4);
 	color: var(--C2);
-	text-align: center;
+	min-width: 250px;
+}
+
+
+nav .search button {
+	background-color: var(--C3);
+	color: var(--C4);
+	cursor: pointer;
 }

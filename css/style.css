@@ -18,6 +18,8 @@ body {
 	height: 100vh;
 	background-color: var(--C1);
 	padding: 5px;
+	object-fit: contain;
+
 }
 
 h1 {
