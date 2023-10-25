@@ -1,10 +1,10 @@
 let movieNameRef = document.getElementById("movie-name");
-let searchBtn = document.getElementById("searc-btn");
+let searchBtn = document.getElementById("search-btn");
 let result = document.getElementById("result");
 
 let getMovie = () => {
 	let movieName = movieNameRef.value;
-	let url = `http://www.omdbapi.com/?t=${movieName}&apikey=&{key}`;
+	let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
 // TRAITER TOUS LES CAS POSSIBLES :
 // Si le champ reste vide
 	if(movieName.length <= 0)
@@ -33,7 +33,7 @@ let getMovie = () => {
 								<span>${data.Runtime}</span>
 							</div>
 							<div class="genre">
-								<div class="genre">${data.genre.split(",").join(<div></div>)}</div>
+								<div class="genre">${data.genre.split(",").join("<div></div>")}</div>
 							</div>
 							<div class="content">
 								<h3>Plot:</h3>
