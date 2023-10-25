@@ -44,3 +44,7 @@ nav .search button {
 	color: var(--C4);
 	cursor: pointer;
 }
+
+nav .search button:active {
+	background-color: var(--C2);
+  }
