@@ -27,9 +27,6 @@ A page to search infos about movies
 <a href="https://sql.developpez.com/" target="_blank" rel="noreferrer"> 
 	<img src="https://db.cs.uni-tuebingen.de/teaching/ws2223/sql-is-a-programming-language/logo.svg" alt="SQL" width="40" height="40"/> </a>
 
-<!-- <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> -->
-
 </p>
 
 ## TOOLS STUDIED
@@ -39,11 +36,6 @@ A page to search infos about movies
 
 <a href="https://www.adobe.com/fr/products/illustrator.html" target="_blank" rel="noreferrer"> 
 	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/langfr-1280px-Adobe_Illustrator_CC_icon.svg.png" alt="illustrator" width="40" height="40"/> </a>
-
-
-
-<a href="https://www.apple.com/fr/final-cut-pro/" target="_blank" rel="noreferrer"> 
-	<img src="https://upload.wikimedia.org/wikipedia/fr/a/a5/Final_Cut_Pro_Logo_2015.png" alt="final cut" width="40" height="40"/> </a>
 
 <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> 
 	<img src="https://code.visualstudio.com/assets/branding/app-icon.png" alt="VS CODE" width="40" height="40"/> </a>
