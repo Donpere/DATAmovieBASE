@@ -1,10 +1,11 @@
+@import url("sections/header.css");
+
 :root {
 	--C1: #461959;
 	--C2: #7A316F;
 	--C3: #CD6688;
 	--C4: #AED8CC;
 	font-family: Arial, Helvetica, sans-serif;
-	color: #CD6688;
 }
 
 * {
@@ -18,20 +19,6 @@ body {
 	background-color: var(--C1);
 	padding: 5px;
 }
-
-.azul, .src_btn{
-	background-color: var(--C4);
-	color: var(--C2);
-	text-align: center;
-}
-
-.co_logo {
-	width: 20%;
-  }
-
-.co_logo .st0 {
-	fill: var(--C3);
-} 
 
 h1 {
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

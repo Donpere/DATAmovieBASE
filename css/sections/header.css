@@ -1,0 +1,25 @@
+.logo_chair {
+	width: 20%;
+	object-fit: contain;
+} 
+
+img{
+	filter: drop-shadow(5px 5px 1px rgb(0 0 0 / 0.4));
+}
+
+nav {
+	padding: 0 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo_chair .st0 {
+	fill: var(--C3);
+} 
+
+.azul, .src_btn{
+	background-color: var(--C4);
+	color: var(--C2);
+	text-align: center;
+}
