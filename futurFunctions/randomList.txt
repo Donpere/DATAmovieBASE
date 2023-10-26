@@ -1,0 +1,10 @@
+// Liste de chaînes de caractères possibles
+const listeDeStrings = ["Slumdog Millionaire", "Fury", "Memento", "No Country for Old Men", "Gladiator", "Avatar", "Dune", "Into the Wild", "Inception", "City Of God", "American Beauty", "Snatch", "In the Mood for Love", "Le Voyage de Chihiro", "Kill Bill", "The Cell", "Unbreakable", "Ocean's Eleven", "Vanilla Sky"];
+
+// Génération d'un index aléatoire
+const indexAleatoire = Math.floor(Math.random() * listeDeStrings.length);
+
+// Accès à la chaîne de caractères aléatoire
+const chaineAleatoire = listeDeStrings[indexAleatoire];
+
+console.log(chaineAleatoire);
