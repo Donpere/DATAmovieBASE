@@ -1,5 +1,9 @@
 # DATAmovieBASE
-A page to search infos about movies
+A little exercise for my porfolio found on the net that I improve step by step. First add a different Color Setting, then add a random movie each time you refresh the page... 
+
+I have several others functions in my mind, just to test some new skills.
+
+Enjoy it guys !
 
 ## LANGUAGES STUDIED
 
