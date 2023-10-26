@@ -13,8 +13,7 @@ let getMovie = () => {
 	}
 	else 
 	{
-		fetch(url).then((response) => response.json()).then
-		((data) =>
+		fetch(url).then((resp) => resp.json()).then((data) =>
 		{
 			//Si le film existe
 			if(data.Response == "True")
@@ -33,7 +32,7 @@ let getMovie = () => {
 								<span>${data.Runtime}</span>
 							</div>
 							<div class="genre">
-								<div class="genre">${data.genre.split(",").join("<div></div>")}</div>
+								<div>${data.Genre.split(",").join("<div></div>")}</div>
 							</div>
 							<div class="content">
 								<h3>Plot:</h3>
