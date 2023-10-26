@@ -12,14 +12,18 @@
 }
 
 .poster {
-	border-radius: 36px;
+	width: 35vw;
+	border-radius: 15px;
 }
 
 .rating {
 	display: flex;
+	margin-bottom: 10px;
 	align-items: center;
 	justify-content: center;
-	gap: 1.2em;
+	gap: 0.5em;
+	font-size: 3vw;
+
 }
 
 .rating img {
@@ -27,15 +31,28 @@
 }
 
 .title-result {
-	text-align: center;
-	font-size: 2em;
-	font-weight: 600;
-	letter-spacing: 0.05em;
 	margin: 0.6em 0 0.9em 0;
+	text-align: center;
+	font-size: 6vw;
 	color: var(--C3);
 	text-shadow: 3px 3px 2px var(--C2);
 }
 
+.details, .genre{
+	font-size: 2vw;
+}
+
 h2, h3 {
 	color: var(--C3);
+	font-size: 2.5vw;
+}
+
+.plot-just {
+	text-justify: auto;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2vw;
+	color: var(--C4);
 }

@@ -1,5 +1,4 @@
 
-
 let movieNameRef = document.getElementById("movie-name");
 let searchBtn = document.getElementById("search-btn");
 let result = document.getElementById("result");
@@ -31,7 +30,7 @@ let getMovie = () => {
 				result.innerHTML = `
 					<div class="info">
 						<div>
-							<h2 class="title-result">${data.Title}</h2>
+							<p class="title-result">${data.Title}</p>
 							<div class="rating">
 								<img src="assets/star-icon.svg" alt="star">
 								<h4>${data.imdbRating}</h4>
@@ -46,7 +45,7 @@ let getMovie = () => {
 							</div>
 							<div class="content">
 								<h3>Plot:</h3>
-								<p>${data.Plot}</p>
+								<p class="plot-just">${data.Plot}</p>
 								<h3>Cast:</h3>
 								<p>${data.Actors}</p>
 							</div>
@@ -67,5 +66,19 @@ let getMovie = () => {
 	}
 }
 
+// Cette ligne ajoute un écouteur d'événements au bouton avec l'ID "search-btn". 
+// Lorsque ce bouton est cliqué, la fonction getMovie sera appelée.
 searchBtn.addEventListener("click", getMovie);
+
+// permet de lancer la recherche en appuyant sur la touche entree
+movieNameRef.addEventListener("keydown", function(event) {
+	if (event.key === "Enter") {
+	  // Appuyé sur la touche "Entrée", lancer la fonction getMovie
+	  getMovie();
+	}
+  });
+  
+
+// Cette ligne ajoute un écouteur d'événements à la fenêtre (la page web). 
+// Lorsque la page est complètement chargée (événement "load"), la fonction getMovie sera appelée.
 window.addEventListener("load", getMovie);

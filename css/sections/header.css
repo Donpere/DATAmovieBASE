@@ -24,25 +24,22 @@ nav .search {
 
 nav .search input,
 nav .search button {
-	text-align: center;
+	cursor: pointer;
+	background-color: var(--C3);
 	padding: 5px 15px;
-	font-size: 0.9em;
+	width: 15vw;
 	outline: none;
 	border: 2px solid var(--C3);
 	border-radius: 0.4em;
+	font-size: 2vw;
+	color: var(--C4);
+	text-align: center;
 }
 
 nav .search input {
 	background-color: var(--C4);
+	width: 30vw;
 	color: var(--C2);
-	min-width: 250px;
-}
-
-
-nav .search button {
-	background-color: var(--C3);
-	color: var(--C4);
-	cursor: pointer;
 }
 
 nav .search button:active {
