@@ -1,0 +1,41 @@
+#result {
+	color: var(--C4);
+	padding: 20px;
+}
+
+.info {
+	position: relative;
+	display: grid;
+	grid-template-columns: 6fr 4fr;
+	gap: 20px;
+	margin-top: 1.2em;
+}
+
+.poster {
+	border-radius: 36px;
+}
+
+.rating {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.2em;
+}
+
+.rating img {
+	width: 5%;
+}
+
+.title-result {
+	text-align: center;
+	font-size: 2em;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	margin: 0.6em 0 0.9em 0;
+	color: var(--C3);
+	text-shadow: 3px 3px 2px var(--C2);
+}
+
+h2, h3 {
+	color: var(--C3);
+}

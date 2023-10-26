@@ -1,3 +1,5 @@
+
+
 let movieNameRef = document.getElementById("movie-name");
 let searchBtn = document.getElementById("search-btn");
 let result = document.getElementById("result");
@@ -13,15 +15,23 @@ let getMovie = () => {
 	}
 	else 
 	{
+		// "resp" et "data" etant utilise dans then, cela revient a declarer deux nouvelle variable resp
+		// on pourrait les nommer comme on veut
+		// puisqu'elle sont "crees"dans la fonction get-movie, 
+		// elles sont utilisables uniquement dans get-movie et disparaissent apres le dernier }
 		fetch(url).then((resp) => resp.json()).then((data) =>
 		{
+			// Console.log pour verifier le contenu brut du retour de l'api
+			console.log(data);
+			let starRating = data.imdbRating;
+			console.log(starRating);
 			//Si le film existe
 			if(data.Response == "True")
 			{
 				result.innerHTML = `
 					<div class="info">
 						<div>
-							<h2>${data.Title}</h2>
+							<h2 class="title-result">${data.Title}</h2>
 							<div class="rating">
 								<img src="assets/star-icon.svg" alt="star">
 								<h4>${data.imdbRating}</h4>

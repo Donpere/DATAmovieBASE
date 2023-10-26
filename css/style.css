@@ -1,4 +1,5 @@
 @import url("sections/header.css");
+@import url("sections/result.css");
 
 :root {
 	--C1: #461959;
@@ -22,12 +23,10 @@ body {
 
 }
 
-h1 {
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 3vw;
+footer {
 	color: var(--C3);
-	letter-spacing: 0.1em;
-	text-shadow: 3px 3px 2px var(--C2);
+	font-size: 0.8em;
+	text-align: center;
 }
 
 p {
@@ -38,4 +37,11 @@ p {
 
 .sect-result {
 	color: var(--C4);
+}
+
+.star-style {
+    /* Définissez les styles CSS que vous souhaitez appliquer à l'image */
+    width: 8px;
+    height: 8px;
+    /* Ajoutez d'autres styles ici */
 }

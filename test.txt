@@ -1,0 +1,65 @@
+MODULE STAR RATING
+
+////////////////////////////////
+// HTML
+////////////////////////////////
+
+<div class="rating">
+  <div class="stars">
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+  </div>
+</div>
+
+////////////////////////////////
+// CSS
+////////////////////////////////
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  display: flex;
+  overflow: hidden;
+}
+
+.star {
+  width: 20px; /* Largeur d'une étoile */
+  height: 20px; /* Hauteur d'une étoile */
+  background-image: url('etoile-pleine.png'); /* Utilisez votre image d'étoile pleine */
+}
+
+.rating-value {
+  margin-left: 5px;
+}
+
+////////////////////////////////
+// JS 
+////////////////////////////////
+
+// Supposez que vous ayez déjà récupéré la note sous forme de décimale (par exemple, 8.3 sur 10)
+let rating = 8.3;
+
+// Convertissez la note sur 10 en une équivalence sur 5
+let ratingOn5 = (rating / 10) * 5;
+
+// Calculez la largeur en pourcentage en fonction de la note (sur 5)
+let widthPercentage = (ratingOn5 / 5) * 100;
+
+// Appliquez la largeur calculée aux étoiles
+document.querySelector('.stars').style.width = widthPercentage + '%';
+
+<div class="rating">
+<div class="stars">
+<img src="chemin/vers/votre-fichier.svg" alt="Étoile" />
+<img src="chemin/vers/votre-fichier.svg" alt="Étoile" />
+<img src="chemin/vers/votre-fichier.svg" alt="Étoile" />
+<img src="chemin/vers/votre-fichier.svg" alt="Étoile" />
+<img src="chemin/vers/votre-fichier.svg" alt="Étoile" />
+<div>
+<div>
